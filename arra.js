@@ -125,22 +125,37 @@ const cars = ["Toyota","Ferrari","Tesla"];
 
 // write a js code to remove the duplicate from a given array
 
-const item = [1,3,5,6,7,3,8,2]//[1,3,5,6,7,8]
+// const item = [1,3,5,6,7,3,8,2]//[1,3,5,6,7,8]
 
-function removeDupl(arr){
-// return [... new Set(arr)];
-const res = [];
-for(let i=0; i<arr.length; i++){
-    if(!res.indexOf(arr[i]) !== -1){
-        res.push(arr[i]);
-    }
-    
-   
-}
-return res;
+// function removeDupl(arr){
+// // return [... new Set(arr)];
+// const res = [];
 
-}
-console.log(removeDupl(item));
+// for(let i=0; i<arr.length; i++){
+//     if(!res.indexOf(arr[i]) !== -1){
+//         res.push(arr[i]);
+//     }   
+// }
+// return res;
+
+// }
+// console.log(removeDupl(item));
+
+
+// let numbers = [1,3,6,7];
+// // for(let i=0; i<numbers.length;i++){
+// //   let num = numbers[i];
+
+// for(let num of numbers){
+// console.log(num);
+// }
+  
+// numbers.forEach()
+
+// for( in )
+
+
+
 
 
 
