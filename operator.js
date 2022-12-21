@@ -77,11 +77,11 @@ let[first,
 
 // console.log(subj3);
 
-function add(a,b,args){
+function add(a,b,...args){
     let sum = a + b;
-    // for(let ele of args){
-    //     sum+=ele;
-    // }
+    for(let ele of args){
+        sum+=ele;
+    }
     return sum;
 }
 
